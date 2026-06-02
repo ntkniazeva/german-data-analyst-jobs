@@ -5,9 +5,9 @@ This project analyzes Data Analyst job postings in Germany using data collected 
 The goal is to understand:
 - how many Data Analyst vacancies are available,
 - where they are located,
-- how often salary information is provided,
-- which cities and companies appear most often,
-- how many positions seem suitable for junior or entry-level candidates.
+- which companies hire the most analysts,
+- what salary information is available,
+- which cities appear most often.
 
 ## Tools
 
@@ -15,7 +15,7 @@ The goal is to understand:
 - pandas
 - Adzuna API
 - Power BI
-- Git / GitHub
+- GitHub
 
 ## Project structure
 
