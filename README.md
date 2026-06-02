@@ -17,13 +17,31 @@ The goal is to understand:
 - Power BI
 - GitHub
 
-## Project structure
+## Project Structure
 
-- `src/` — Python scripts for data collection and preparation
-- `notebooks/` — exploratory analysis
-- `reports/screenshots/` — dashboard screenshots
-- `reports/powerbi/` — Power BI notes or exported PDF/screenshots
-- `data/` — local data files, not uploaded to GitHub
+```text
+german-data-jobs-analysis/
+├── data/
+│   └── jobs_snapshot_27-05-2026.csv
+├── dashboard/
+│   ├── dashboard.pbix
+│   ├── key_metrics.csv
+│   ├── top_cities.csv
+│   └── top_companies.csv
+├── visuals/
+│   ├── salary_distribution.png
+│   ├── top_cities_by_vacancies.png
+│   ├── top_companies_by_vacancies.png
+│   ├── top_cities_by_salary.png
+│   └── top_companies_by_salary.png
+├── notebooks/
+│   └── job_analysis.ipynb
+├── src/
+│   └── collect_data.py
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
 
 ## Dashboard
 
