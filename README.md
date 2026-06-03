@@ -20,7 +20,9 @@ The goal is to understand:
 
 ## Visualisation 
 
+### A Map of Top Cities by Number of Vacancies
 
+![Top Cities](visuals/map_top_cities_by_vacancies.png)
 
 ### Top Cities by Number of Vacancies
 
