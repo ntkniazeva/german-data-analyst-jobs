@@ -38,7 +38,7 @@ while True:
 
 data = pd.DataFrame(jobs)
 
-result_path = Path("data/raw/jobs_snapshot_27-05-2026.csv")
+result_path = Path("data/jobs_snapshot.csv")
 result_path.parent.mkdir(parents=True, exist_ok=True)
 
 data.to_csv(result_path, index=False)
