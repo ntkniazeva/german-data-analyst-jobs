@@ -54,6 +54,13 @@ Key fields:
 
 ### Filtering
 
+For collecting job postings with Adzuna API, use a keyword 'data' in the job title.
+
+To get only Data Analyst vacancies, filter the collected dataset by key phrases:
+- data analyst,
+- daten analyst,
+- datenanalyst.
+
 ### Cleaning
 
 ## Project Structure
