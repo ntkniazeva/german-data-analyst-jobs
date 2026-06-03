@@ -12,7 +12,7 @@ The goal is to understand:
 
 ## Key Findings
 
-1. The total number of Data Analyst vacancies is **223**.
+1. Out of more than 4,000 retrieved job postings, **223** were identified as Data Analyst positions.
 2. Most vacancies are concentrated in **Berlin, Munich, Hamburg,  Cologne, Frankfurt, and Düsseldorf**.
 3. A German healthcare technology company **KIND GmbH & Co KG** posted the highest number of Data Analysts vacancies.
 4. Salary transparency is limited. Only **8% of job postings have salary informaion**. No salary informaion for junior roles.
