@@ -43,6 +43,8 @@ Power BI dashboard is available in:
 
 `dashboard/dashboard.pbix `
 
+![Key Metrics](visuals/key_metrics_map_distribution.png)
+
 ## Data Source
 
 Source: Adzuna API
