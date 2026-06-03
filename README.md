@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes Data Analyst job postings in Germany using data collected from the Adzuna API.
+This project analyzes Data Analyst job postings in Germany using data collected from the Adzuna API on 03.06.2026. The dataset was cleaned and processed in Python, including seniority-level classification and location standardization. The results were visualized in Power BI and in Python using matplotlib and seaborn libraries.
 
 The goal is to understand:
 - how many Data Analyst vacancies are available,
@@ -12,10 +12,11 @@ The goal is to understand:
 
 ## Key Findings
 
-1. Most vacancies are concentrated in **Berlin, Munich, Hamburg,  Cologne, Frankfurt, and Düsseldorf**.
-2. A German healthcare technology company **KIND GmbH & Co KG** posted the highest number of Data Analysts vacancies.
-3. Salary transparency is limited. Only **8% of job postings have salary informaion**. No salary informaion for junior roles.
-4. The median Data Analyst salary is **€76,240** per year.
+1. The total number of Data Analyst vacancies is **223**.
+2. Most vacancies are concentrated in **Berlin, Munich, Hamburg,  Cologne, Frankfurt, and Düsseldorf**.
+3. A German healthcare technology company **KIND GmbH & Co KG** posted the highest number of Data Analysts vacancies.
+4. Salary transparency is limited. Only **8% of job postings have salary informaion**. No salary informaion for junior roles.
+5. The median Data Analyst salary is **€76,240** per year.
 
 ## Visualisation 
 
