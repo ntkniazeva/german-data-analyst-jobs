@@ -50,18 +50,34 @@ Key fields:
 - salary_min
 - salary_max
 
-## Data Preparation 
+## Data Preparation
 
 ### Filtering
 
-For collecting job postings with Adzuna API, use a keyword 'data' in the job title.
+For data collection from the Adzuna API, the keyword **"data"** was used in job titles.
 
-To get only Data Analyst vacancies, filter the collected dataset by key phrases:
-- data analyst,
-- daten analyst,
-- datenanalyst.
+To focus the analysis on Data Analyst positions, the collected dataset was filtered using the following keywords:
+
+- data analyst
+- daten analyst
+- datenanalyst
+
+The following postings were excluded:
+
+- Weiterbildung
+- Bildungsgutschein
 
 ### Cleaning
+
+The dataset required preprocessing of the `location` and `company` fields.
+
+These fields were retrieved from the API as JSON objects and stored as strings in the dataset. To extract city and company names, the strings were converted back to dictionaries using Python's `ast` library.
+
+The resulting `city` field contained a mixture of locations. The following cleaning steps were performed:
+
+- removed the value `Deutschland`
+- removed federal states
+- consolidated major city districts into their corresponding cities (e.g., Mitte → Berlin, Altstadt-Lehel → Munich)
 
 ## Project Structure
 
