@@ -81,8 +81,8 @@ Get APP_ID and APP_KEY by registering for a free developer account on the Adzuna
 To run this project, create a `.env` file in the project root directory and add your Adzuna API credentials:
 
 ```env
-APP_ID=your_app_id
-APP_KEY=your_app_key
+APP_ID = 'your_app_id'
+APP_KEY = 'your_app_key'
 ```
 
 ### Install Dependencies
