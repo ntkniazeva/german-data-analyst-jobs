@@ -8,23 +8,33 @@ The goal is to understand:
 - how many Data Analyst vacancies are available,
 - where they are located,
 - which companies hire the most analysts,
-- what salary information is available,
-- which cities appear most often.
+- what salary information is available.
 
 ## Key Findings
 
-Most vacancies are concentrated in 
-Junior postitions are relatively rare.
-Salary transparency is limited
-Most reported average salaries are concentrated between €55,000 and €80,000 per year
-Among vacancies containing salary information, the highest reported salaries were observed in the following companies
-If salary is the main criterion, focus on these cities and employers. the highest average salaries
+Out of 4000+ data-related job postings, about 200 are Data Analyst positions.
 
-## Dashboard Preview
+Junior postitions are relatively rare (11%).
+ 
+Most vacancies are concentrated in major cities like Berlin, Hamburg, Cologne, etc.
+
+... are currently hiring the most data analyst.
+
+Salary transparency is limited.
+
+Most reported average salaries are concentrated between €55,000 and €80,000 per year.
+
+## Visualisation 
 
 ![Top Cities](visuals/top_cities_by vacancies.png)
 
-## Data
+## Power BI Dashboard
+
+Interactive Power BI dashboard is available in:
+
+`dashboard/dashboard.pbix `
+
+## Data Source
 
 Source: Adzuna API
 
@@ -39,6 +49,9 @@ Key fields:
 - description
 - salary_min
 - salary_max
+
+## Dara Preparation 
+
 
 ## Project Structure
 
@@ -101,14 +114,3 @@ Open and run:
 
 `notebooks/job_analysis.ipynb`
 
-## Dashboard
-
-The Power BI dashboard is available in:
-
-`dashboard/dashboard.pbix `
-
-The Power BI dashboard includes KPI cards, city distribution, salary availability, and a map of job postings in Germany.
-
-
-
-Location data contained a mixture of cities, districts, federal states, and administrative regions. Major districts of Berlin, Munich, Hamburg, Cologne, Frankfurt, and Düsseldorf were consolidated into their corresponding cities to improve analytical accuracy.
