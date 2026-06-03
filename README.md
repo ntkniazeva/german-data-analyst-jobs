@@ -24,34 +24,46 @@ If salary is the main criterion, focus on these cities and employers. the highes
 
 ![Top Cities](visuals/top_cities_by vacancies.png)
 
-## Data Source
+## Data
 
-Adzuna API
+Source: Adzuna API
+
+Data collection date: June 3, 2026
+
+Records: 4,323 job postings
+
+Key fields:
+- title
+- company
+- location
+- description
+- salary_min
+- salary_max
 
 ## Project Structure
 
 ```text
 german-data-jobs-analysis/
-├── data/
-│   └── jobs_snapshot_27-05-2026.csv
 ├── dashboard/
 │   ├── dashboard.pbix
 │   ├── key_metrics.csv
 │   ├── top_cities.csv
 │   └── top_companies.csv
-├── visuals/
-│   ├── salary_distribution.png
-│   ├── top_cities_by_vacancies.png
-│   ├── top_companies_by_vacancies.png
-│   ├── top_cities_by_salary.png
-│   └── top_companies_by_salary.png
+├── data/
+│   └── jobs_snapshot.csv
 ├── notebooks/
 │   └── job_analysis.ipynb
 ├── src/
 │   └── collect_data.py
+├── visuals/
+│   ├── salary_distribution.png
+│   ├── top_cities_by_salary.png
+│   ├── top_cities_by_vacancies.png
+│   ├── top_companies_by_salary.png
+│   └── top_companies_by_vacancies.png
+├── .gitignore
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 ## Technologies Used
 
@@ -106,3 +118,7 @@ The Power BI dashboard is available in:
 `dashboard/dashboard.pbix `
 
 The Power BI dashboard includes KPI cards, city distribution, salary availability, and a map of job postings in Germany.
+
+
+
+Location data contained a mixture of cities, districts, federal states, and administrative regions. Major districts of Berlin, Munich, Hamburg, Cologne, Frankfurt, and Düsseldorf were consolidated into their corresponding cities to improve analytical accuracy.
