@@ -19,7 +19,7 @@ The goal is to understand:
 
 ## Visualisation 
 
-### A Map of Top Cities by Number of Vacancies
+### Germany Vacancy Map
 
 ![Top Cities](visuals/map_top_cities_by_vacancies.png)
 
