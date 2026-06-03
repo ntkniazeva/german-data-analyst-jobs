@@ -12,10 +12,10 @@ The goal is to understand:
 
 ## Key Findings
 
-1. Most vacancies are concentrated in major cities: **Berlin, Hamburg, Cologne, Munich,** etc.
-2. A German healthcare technology company **KIND GmbH & Co KG** hires the most data analyst.
+1. Most vacancies are concentrated in **Berlin, Munich, Hamburg,  Cologne, Frankfurt, and Düsseldorf**.
+2. A German healthcare technology company **KIND GmbH & Co KG** posted the highest number of Data Analysts vacancies.
 3. Salary transparency is limited. Only **8% of job postings have salary informaion**. No salary informaion for junior roles.
-4. The average Data Analyst salary is **€76,240** per year.
+4. The median Data Analyst salary is **€76,240** per year.
 
 ## Visualisation 
 
@@ -96,6 +96,7 @@ The resulting `city` field contained a mixture of locations. The following clean
 german-data-jobs-analysis/
 ├── dashboard/
 │   ├── dashboard.pbix
+│   ├── jobs_details.csv
 │   ├── key_metrics.csv
 │   ├── top_cities.csv
 │   └── top_companies.csv
