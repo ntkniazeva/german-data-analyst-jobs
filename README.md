@@ -12,11 +12,10 @@ The goal is to understand:
 
 ## Key Findings
 
-1. Senior-level vacancies account for about a quarter of all Data Analyst positions, while junior positions are relatively rare, making up only 11% of vacancies.
-2. Most vacancies are concentrated in major cities: Berlin, Hamburg, Cologne, Munich, etc.
-3. A German healthcare technology company **KIND GmbH & Co KG** hires the most data analyst.
-4. Salary transparency is limited. Only 8% of job postings have salary informaion.
-5. Most reported average salaries are concentrated between €55,000 and €80,000 per year.
+1. Most vacancies are concentrated in major cities: **Berlin, Hamburg, Cologne, Munich,** etc.
+2. A German healthcare technology company **KIND GmbH & Co KG** hires the most data analyst.
+3. Salary transparency is limited. Only **8% of job postings have salary informaion**. No salary informaion for junior roles.
+4. The average Data Analyst salary is **€76,240** per year.
 
 ## Visualisation 
 
