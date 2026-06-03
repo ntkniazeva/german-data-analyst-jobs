@@ -23,13 +23,10 @@ The goal is to understand:
 
 ![Top Cities](visuals/map_top_cities_by_vacancies.png)
 
-### Top Cities by Number of Vacancies
-
-![Top Cities](visuals/top_cities_by_vacancies.png)
-
 ### Top Companies by Number of Vacancies
 
 ![Top Companies](visuals/top_companies_by_vacancies.png)
+The market is highly fragmented. Even the largest employer in the dataset accounts for only 16 vacancies, the other companies advertise from 4 to 8 positions.
 
 ### Salary Distribution
 
