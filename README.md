@@ -14,15 +14,26 @@ The goal is to understand:
 
 1. Senior-level vacancies account for about a quarter of all Data Analyst positions, while junior positions are relatively rare, making up only 11% of vacancies.
 2. Most vacancies are concentrated in major cities: Berlin, Hamburg, Cologne, Munich, etc.
-3. **KIND GmbH & Co KG** is the company that hires the most data analyst.
+3. A German healthcare technology company **KIND GmbH & Co KG** hires the most data analyst.
 4. Salary transparency is limited. Only 8% of job postings have salary informaion.
 5. Most reported average salaries are concentrated between €55,000 and €80,000 per year.
 
 ## Visualisation 
 
+
+
 ### Top Cities by Number of Vacancies
 
 ![Top Cities](visuals/top_cities_by_vacancies.png)
+
+### Top Companies by Number of Vacancies
+
+![Top Companies](visuals/top_companies_by_vacancies.png)
+
+### Salary Distribution
+
+![Salary Distribution](visuals/salary_distribution.png)
+The average salary distribution is right-skewed. A small number of exceptionally high salaries pull the mean upward (to the right). Therefore, the median is a more representative measure of the typical salary level.
 
 ## Power BI Dashboard
 
