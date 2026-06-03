@@ -65,16 +65,6 @@ german-data-jobs-analysis/
 ├── README.md
 └── requirements.txt
 ```
-## Technologies Used
-
-•	Python
-•	Pandas
-•	Matplotlib
-•	Seaborn
-•	Power BI
-•	Rest API
-•	Git
-•	GitHub
 
 ## Tools
 
