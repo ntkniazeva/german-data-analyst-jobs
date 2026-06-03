@@ -33,7 +33,7 @@ The goal is to understand:
 ### Salary Distribution
 
 ![Salary Distribution](visuals/salary_distribution.png)
-The average salary distribution is right-skewed. A small number of exceptionally high salaries pull the mean upward (to the right). Therefore, the median is a more representative measure of the typical salary level.
+The average annual salary distribution is right-skewed. A small number of exceptionally high salaries pull the mean upward (to the right). Therefore, the median is a more representative measure of the typical average salary.
 
 ## Power BI Dashboard
 
@@ -146,4 +146,11 @@ APP_KEY = 'your_app_key'
 Open and run:
 
 `notebooks/job_analysis.ipynb`
+
+## Project Limitations
+
+1. API limitation. The field `'description'` was truncated up to 500 characters, so I could not extract information about skills, technologies, or language requirements.
+2. Small number of junior vacancies.
+3. The lack of salary information. Since salary information is available for only a small fraction of vacancies, these results do not represent the entire market.
+
 
