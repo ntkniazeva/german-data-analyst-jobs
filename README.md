@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes Data Analyst job postings in Germany using data collected from the Adzuna API on 03.06.2026. The dataset was cleaned and processed in Python, including seniority-level classification and location standardization. The results were visualized in Power BI and in Python using matplotlib and seaborn libraries.
+This project analyzes Data Analyst job postings in Germany using data collected from the Adzuna API on June 3, 2026. The dataset was cleaned and processed in Python, including seniority-level classification and location standardization. The results were visualized using Power BI and Python libraries such as Matplotlib and Seaborn.
 
 The goal is to understand:
 - how many Data Analyst vacancies are available,
