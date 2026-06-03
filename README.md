@@ -19,6 +19,10 @@ The goal is to understand:
 
 ## Visualisation 
 
+### Seniority Level
+
+![Seniority](visuals/distribution_by_seniority.png)
+
 ### Germany Vacancy Map
 
 ![Top Cities](visuals/map_top_cities_by_vacancies.png)
