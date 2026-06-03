@@ -39,7 +39,7 @@ The average annual salary distribution is right-skewed. A small number of except
 
 ## Power BI Dashboard
 
-Interactive Power BI dashboard is available in:
+Power BI dashboard is available in:
 
 `dashboard/dashboard.pbix `
 
