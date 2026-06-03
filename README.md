@@ -50,8 +50,11 @@ Key fields:
 - salary_min
 - salary_max
 
-## Dara Preparation 
+## Data Preparation 
 
+### Filtering
+
+### Cleaning
 
 ## Project Structure
 
